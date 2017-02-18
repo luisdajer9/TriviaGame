@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trivia Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+   
+</head>
+<body>
+
+<div class="container" id="main-container">
+	<div class="container" id="game-container">
+        <div class="container col-md-12" id="heading">
+            <P id="title">Trivial Trivia Game</P>
+        </div>
+        <div class="container col-md-12" id="timer-container">
+            <h1><span id="timer">00:00</span></h1>
+        </div>
+        <div class="container" id="question1">
+            <form id="triviaForm" action="index2.html" method="get">
+                <p id="question1-text">What is the maximum jail time an offender can get for a misdemeanor, if any?</p><br>
+                <div class="answer-container">
+                    <div class="answer1">
+                        <input id="choice1" class="answer1" name="jail" type="radio" value="6 Months"> 6 Months
+                    </div>
+                    <div class="answer1">
+                        <input id="choice2" class="answer1" name="jail" type="radio" value="1 Year"> 1 Year
+                    </div>
+                    <div class="answer1">
+                        <input id="choice3" class="answer1" name="jail" type="radio" value="9 Months"> 9 Months
+                    </div>
+                    <div class="answer1">
+                        <input id="choice4" type="radio" name="jail" value="2 Years"> 2 Years
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+        <div class="container" id="question2">
+            <form id="triviaForm2" action="index2.html" method="get">
+                <p id="question1-text">What country saw a world record 315 million voters turn out for elections on May 20, 1991?</p><br>
+                <div class="answer-container">
+                    <div class="answer1">
+                        <input class="answer1" name="country" type="radio" value="China">China
+                    </div>
+                    <div class="answer1">
+                        <input class="answer1" name="country" type="radio" value="India">India
+                    </div>
+                    <div class="answer1">
+                        <input class="answer1" name="country" type="radio" value="Japan">Japan
+                    </div>
+                    <div class="answer1">
+                        <input type="radio" name="country" value="America"> America
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+        <div class="container" id="question3">
+            <form id="triviaForm3" action="index2.html" method="get">
+                <p id="question1-text">What was the first planet to be discovered using the telescope, in 1781?</p><br>
+                <div class="answer-container">
+                    <div class="answer1">
+                        <input class="answer1" name="planet" type="radio" value="Neptune">Neptune
+                    </div>
+                    <div class="answer1">
+                        <input class="answer1" name="planet" type="radio" value="Mercury">Mercury
+                    </div>
+                    <div class="answer1">
+                        <input class="answer1" name="planet" type="radio" value="Mars">Mars
+                    </div>
+                    <div class="answer1">
+                        <input type="radio" name="planet" value="Uranus"> Uranus
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+        <div class="container" id="submit">
+            <div id="button-container">
+                <a href="index2.html"><button id="submit-button">Submit</button></a>
+            </div>
+        </div>
+        
+        
+        
+        
+    </div>
+    
+    
+</div>
+
+
+<script type="text/javascript" src="assets/javascript/timer.js"></script>
+ <script type="text/javascript"  src="assets/javascript/app.js"></script>
+    
+</body>
+</html>
